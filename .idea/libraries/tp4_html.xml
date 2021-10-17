@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tp4_html">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tp4/tp4_html.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

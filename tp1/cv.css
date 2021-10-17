@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    background-color: #e9ebee;
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555;
+  }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:visited{
+    color: inherit;
+}
+.position-relative{
+    position: relative;
+}
+body{
+
+
+}
+.mb{
+    padding-bottom: 10px;
+}
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.semi_bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+.resume{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.resume_left_box{
+    width: 280px;
+    background: #222;
+}
+.resume .resume_left_box .profil{
+    width: 100%;
+    height: 280px;
+}
+
+.resume .resume_left_box .profil img{
+    width: 100%;
+    height: 100%;
+}
+
+.resume .resume_left_box .content{
+    padding: 0 25px;
+    color: #fff;
+}
+.resume .title{
+    margin-bottom: 10px;
+}
+.resume .resume_left_box .bold{
+    color: #fff;
+}
+.resume .resume_left_box .regular{
+    color: #b1eaff;
+}
+.resume .item{
+    padding: 20px 0;
+    border-bottom: 2px solid #fff;
+}
+.resume .resume_left_box .item:last-child,
+.resume .resume_right_box .item:last-child{
+    border-bottom: 0;
+}
+.resume .resume_left_box ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.resume .resume_left_box ul li:last-child{
+    margin-bottom: 0;
+}
+.resume .resume_left_box ul li .icon{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: darkred;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume .resume_left_box .skills ul li{
+    justify-content: space-between;
+}
+.resume .resume_left_box .social ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.resume .resume_right_box{
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+}
+.resume .resume_right_box .bold{
+    color: darkred;
+}
+.red{
+    color: red;
+}
+.name{
+    font-weight: bolder;
+    color: black;
+}
+.pl{
+    padding-left: 25px;
+}
+.resume .resume_right_box .education ul,
+.resume .resume_right_box .projects ul{
+    padding-left: 40px;
+    overflow: hidden;
+}
+.educ_title{
+    font-weight: bolder;
+    color: black;
+}
+.resume .resume_right_box ul li{
+    position: relative;
+}
+.resume .resume_right_box ul li .date{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.resume .resume_right_box ul li .information{
+    margin-bottom: 10px;
+}
+
+.resume .resume_right_box ul li:last-child .information{
+    margin-bottom: 0;
+}
+.resume .resume_right_box .education ul li::before,
+.resume .resume_right_box .projects ul li::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.resume .resume_right_box .publications ul li{
+    position: relative;
+}
+.skill_group{
+    margin-left: 15px;
+    font-weight: bold;
+}
+.skill_group::before{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+.resume .resume_right_box .education ul li::after,
+.resume .resume_right_box .projects ul li::after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 95px;
+    background:  black;
+}
+
+.resume .resume_right_box .hobbies ul{
+    display: flex;
+    justify-content: space-between;
+}
+.resume .resume_right_box .hobbies ul li{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    color: #0bb5f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume .resume_right_box .hobbies ul li::before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 78px;
+    width: 52px;
+    height: 2px;
+    background: black;
+}
+.resume .resume_right_box .hobbies ul li:last-child::before{
+    display: none;
+}
+.resume .resume_right_box .hobbies ul li img{
+    width: 45px;
+    height: 45px;
+}

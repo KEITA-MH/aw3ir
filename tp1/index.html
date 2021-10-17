@@ -1,35 +1,223 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>TP1</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <!-- Place favicon.ico in the root directory -->
-
-    <style>
-      body {
-        background-color: #e9ebee;
-        font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-        font-size: 16px;
-        margin: 0 auto;
-        max-width: 800px;
-      }
-    </style>
-
-    <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-    <!--<link rel="stylesheet" href="style.css">-->
-    <!--<script src="main.js"></script>-->
-  </head>
-  <body>
-    <h1>TP 1</h1>
-    <!-- Add your site or application content here -->
-    <p>Hello world! This is HTML5 Boilerplate.</p>
-    <img src="../galilee.png" alt="Logo Galilee" />
-
-    <h2><a href="experiences/index.html">Expériences</a></h2>
-  </body>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cv.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <title>Resume/ CV</title>
+</head>
+<body>
+<div class="resume">
+  <div class="resume_left_box">
+    <div class="profil">
+      <img src="./assets/profil.jpg" alt="" class="profil_pic">
+    </div>
+    <div class="content">
+      <div class="item info">
+        <div class="title">
+          <p class="bold">KEITA Mamadou</p>
+          <p class="regular">Ing. Computer Science & Networking</p>
+        </div>
+        <ul>
+          <li>
+            <div class="icon">
+              <i class="fas fa-map-signs" aria-hidden="true"></i>
+            </div>
+            <div class="data">
+              Pelengana Nord, SEGOU <br> MLI
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+            </div>
+            <div class="data">
+              +213 XXXXXXXXX
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="data">
+              <a href="mailto:mohkeita9527@gmail.com">mohkeita9527@gmail.com</a>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fab fa-weebly" aria-hidden="true"></i>
+            </div>
+            <div class="data">
+              www.linkedIn.com
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="item skills">
+        <div class="title">
+          <p class="bold">Skills</p>
+        </div>
+        <ul>
+          <li >
+            <div class="position-relative">
+              <span class="skill_group red">Artificial Intelligence</span><br>
+              <div class="pl">
+                Deep Neural Network, Supervised Learning, Keras, Tensorflow, Pandas, Numpy, Transfert Learning, Siamese Network, Regression
+              </div>
+            </div>
+          </li>
+          <li >
+            <div class="position-relative">
+              <span class="skill_group red">Programming Language</span><br>
+              <div class="pl">
+                Python, C, Java, Arduino programming
+              </div>
+            </div>
+          </li>
+          <li >
+            <div class="position-relative">
+              <span class="skill_group red">Web development</span><br>
+              <div class="pl">
+                GoLang, JavaScript, PHP, CSS, HTML, Bootstrap, Node, ExpressJs, Jquery
+              </div>
+            </div>
+          </li>
+          <li >
+            <div class="position-relative">
+              <span class="skill_group red">Database</span><br>
+              <div class="pl">
+                MySQL, MongoDB
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="item social">
+        <div class="title mb">
+          <p class="bold">Social</p>
+        </div>
+        <ul>
+          <li>
+            <div class="icon">
+              <a href=""><i class="fab fa-facebook"></i> </a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fab fa-instagram"></i> </a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fab fa-linkedin"></i> </a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fab fa-github"></i> </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="resume_right_box">
+    <div class="item about">
+      <div class="title">
+        <p class="bold">About Me</p>
+      </div>
+      <p>
+        Junior data scientist with 2+ years of experience in project work and freelance jobs.
+        Skilled in machine learning, data analysis, problem solving and programming.
+      </p>
+    </div>
+    <div class="item education">
+      <div class="title">
+        <p class="bold">Education</p>
+      </div>
+      <ul>
+        <li>
+          <div class="date">Nov 2016 - Sep 2021</div>
+          <div class="information">
+            <p class="semi_bold">
+              <span class="educ_title">Engineer in Telecommunications</span> <br>
+              National Institute of Telecommunications and ICT (INTTIC), Oran - Algeria
+          </div>
+        </li>
+        <li>
+          <div class="date">Oct 2013 - Jun 2016</div>
+          <div class="information">
+            <p class="semi_bold">
+              <span class="educ_title">Baccalaureate</span> <br>
+              Abdoul Karim Camara dit Cabral High School (LAKCC), Segou - Mali
+              (<span class="red">Obtained with honors in the exact science series</span>)
+          </div>
+        </li>
+        <li>
+          <div class="date">Jun 2013</div>
+          <div class="information">
+            <p class="semi_bold">
+              <span class="educ_title">DEF</span> <br>
+              Private School Pelengana Market, Segou - Mali
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="item projects">
+      <div class="title">
+        <p class="bold">Projects</p>
+      </div>
+      <ul>
+        <li>
+          <div class="date">Oct 2021 - Sept 2021</div>
+          <div class="information">
+            <p class="semi_bold">
+              <span class="educ_title">Final Project (PFE)</span> [<a href="https://github.com/Mamadou-Keita/VSMML">Github</a>]<br>
+              Image/video quality assessment for security-oriented applications <br>
+              keywords: Visual security assessment, Scrambling, Deep learning
+          </div>
+        </li>
+        <li>
+          <div class="date">Mar 2020 - Sept 2020</div>
+          <div class="information">
+            <p class="semi_bold">
+              <span class="educ_title">M1 Final Project</span> <br>
+              Evaluation de la qualité pour les applications de sécurité <br>
+              keywords: IQA, Image degradation, Image processing
+          </div>
+        </li>
+        <li>
+          <div class="date">Mai 2019 - Sept 2019</div>
+          <div class="information">
+            <p class="semi_bold">
+              <span class="educ_title">L3 Final Project</span> <br>
+              Application de l'intelligence artificielle à l'IOT et la domotique
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="item publications">
+      <div class="title">
+        <p class="bold">Publications</p>
+      </div>
+      <ul>
+        <li>
+          <div class="information">
+            Sid Ahmed Fezza, <span class="name">Mamadou Keita</span> and Wassim Hamidouche, <span class="red">“Visual Quality and Security Assessment of Perceptually Encrypted Images based On MultiOutput Deep Neural,”</span> in Proc. IEEE European Workshop on Visual Information Processing (EUVIP’2021),
+            Paris, France, 2021. <span class="name">(1 of 4 best paper award finalists in EUVIP 2021)</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="item hobbies">
+      <div class="title">
+        <p class="bold">HOBBIES & INTERESTS</p>
+      </div>
+      <ul>
+        <li>
+          <img src="./assets/userexperience.png" alt="UI/UX">
+        </li>
+        <li><img src="./assets/lamp.png" alt="Challenge"></li>
+        <li><img src="./assets/cook.png" alt="Cooking"></li>
+        <li> <img src="./assets/programming.png" alt="Programming"> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
 </html>
