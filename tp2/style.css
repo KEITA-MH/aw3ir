@@ -1,0 +1,90 @@
+*{
+            box-sizing: border-box;
+          }
+          body{
+              background-color: #e9ebee;              
+              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+              font-size: 16px;
+              /*margin: 0 auto;
+              max-width: 800px; */ 
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              min-height: 100vh;
+              margin: 0            
+          }
+          .header{
+            background: #f7f7f7;
+            border-bottom: 1px solid #f0f0f0;
+            padding: 20px 40px;
+          }
+          .header h2{
+            margin: 0;
+          }
+          .form{
+            padding: 30px 40px;
+            background: white;
+          }
+          .form-control{
+            margin-bottom: 10px;
+            padding-bottom: 20px;
+            position: relative;
+          }
+          .form-control label{
+            display: inline-block;
+            margin-bottom: 5px;
+          }
+          .form-control input{
+            border: 2px solid #f0f0f0;
+            border-radius: 4px;
+            display: block;
+            font-family: inherit;
+            font-size: 14px;
+            padding: 10px;
+            width: 100%;
+          }
+          .form .btn{
+            background-color: darkred;
+            border: 2px solid darkred;
+            border-radius: 4px;
+            color: #fff;
+            display: block;
+            font-family: inherit;
+            font-size: 16px;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+          }
+          .content{
+              width: 700px;
+              margin: 0 3rem auto;
+              padding: 1rem;
+            }
+            .submitBtn{
+              border-radius: 5px;
+              border: 2px solid lightgray;
+              padding: 0.2rem 1rem;
+            }
+            #error{
+                background: pink;
+                padding: 5px;
+                border: 1px solid black;
+                text-align: left;
+                display: none;
+                margin-bottom: 2rem;
+            }
+            #resultat{
+                background: green;
+                padding: 1rem .5rem;
+                color: white;
+                text-align: center;
+                display: none;
+                margin-bottom: 2rem;
+            }
+            .active{
+              display: block !important;
+            }
+            ul{
+              list-style: none;
+              line-height: 18px;
+            }
